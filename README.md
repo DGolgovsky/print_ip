@@ -1,21 +1,17 @@
-# allocator
+# print_ip
 Homework 04 task. [OTUS C++]
 
 [![Build Status](https://travis-ci.org/DGolgovsky/print_ip.svg?branch=master)](https://travis-ci.org/DGolgovsky/print_ip)
 [![Code Health](https://landscape.io/github/DGolgovsky/print_ip/master/landscape.svg?style=flat)](https://landscape.io/github/DGolgovsky/print_ip/master)
 [ ![Download](https://api.bintray.com/packages/dgolgovsky/otus-cpp/print_ip/images/download.svg) ](https://bintray.com/dgolgovsky/otus-cpp/print_ip/_latestVersion)
 
-Implementation the function of printing a conditional ip-address.
-The address can be represented as an arbitrary integer type.
-The representation does not depend on the type sign. Output byte since beginning
-senior with a symbol `.` as a separator.
+Implementation of the function printing a conditional ip-address. The address can be represented as an arbitrary integer type. The representation does not depend on the type sign. Output byte since beginning with a symbol `.` as a separator.
 
-The address can be represented as a string. It is displayed as is.
+The address can be represented as a `string`. It is displayed as is.
 
-The address can be represented in the form of containers `std::list`, `std::vector`.
-The contents of the container are displayed element-by-element and are divided `.`.
+The address can be represented in the form of containers `std::list`, `std::vector`. The contents of the container are displayed element-by-element and are divided `.`
 
-In addition, the address can be represented in the form `std::tuple` at provided that all types are the same. The contents are output by element and is divided `.`.
+In addition, the address can be represented in the `std::tuple` at provided that all types are the same. The contents are output by element and is divided `.`
 
 The application code contain the following calls:
 
@@ -37,8 +33,7 @@ The application code contain the following calls:
 
 Doxygen and the publication of the html-versions of documentation on github-pages.
 
-Detailed description on the page:
-https://dgolgovsky.github.io/print_ip/
+Detailed description on the [gh-pages](https://dgolgovsky.github.io/print_ip/)
 
 **Example of Dockerfile**
 
